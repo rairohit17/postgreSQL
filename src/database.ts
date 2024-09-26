@@ -3,7 +3,9 @@ import { connectingToPsql } from "./connection.js";
 import { creatingTableUsers } from "./creatingTable.js";
 import { insertingData } from "./insertData.js";
 import { sortingdate } from "./sortingByName.js";
-connectingToPsql();
+import { singleInsertion } from "./sqlInjection.js";
+ const connection= await connectingToPsql();
 // creatingTableUsers();
 // insertingData();
-sortingdate();
+// sortingdate();
+ const insertion = await singleInsertion()
