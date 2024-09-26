@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@types/pg": "^8.11.10",
+    "express": "^4.21.0",
+    "pg": "^8.13.0",
+    "ps": "^1.0.0",
+    "typescript": "^5.6.2"
+  },
+  "name": "webdev",
+  "version": "1.0.0",
+  "main": "postgres.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": " node C:/webdev/dist/database.js  ",
+    "build":" tsc -b "
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
