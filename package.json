@@ -12,7 +12,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": " node C:/webdev/dist/database.js  ",
+    "dev": " node ./dist/database.js  ",
     "build":" tsc -b "
   },
   "author": "",

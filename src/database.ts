@@ -8,4 +8,4 @@ import { singleInsertion } from "./sqlInjection.js";
 // creatingTableUsers();
 // insertingData();
 // sortingdate();
- const insertion = await singleInsertion()
+//  const insertion = await singleInsertion()

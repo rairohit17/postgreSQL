@@ -3,7 +3,7 @@ const { Client}= pkg;
 
 // import { Client } from "pg"
 
-  const connectionString : string= "postgresql://postgres:rohitrai321@localhost:1234/test"
+  const connectionString : string= "postgresql://postgres:rohitrai321@localhost:5432/test"
 export const newClient=new Client({
     connectionString:connectionString
 })
